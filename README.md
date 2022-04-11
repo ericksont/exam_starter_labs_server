@@ -1,4 +1,4 @@
-### SQL TypeORM sample
+### exam_starter_labs_server
 
 ### Installation
 
