@@ -5,13 +5,13 @@ export class Portfolio {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column()
+  @Column({nullable: true})
   tokenId: string;
 
   @Column()
   tokenSymbol: string;
 
-  @Column()
+  @Column({type: 'numeric', precision: 20, scale: 10})
   amount: number;
 
 }
